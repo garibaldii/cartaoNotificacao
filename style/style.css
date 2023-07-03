@@ -1,7 +1,6 @@
 body {
     background-color: #27293F;
     font-family: 'Roboto Flex', sans-serif;
-    height: 100vh;
 }
 
 #container_all {
@@ -11,32 +10,28 @@ body {
 #posicao_quadrado_branco {
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 #posicao_conteudo_quadrado_branco {
     display: flex;
     flex-direction: row-reverse;
     background-color: white;
-    align-items: center;
     padding: 1%;
     border-radius: 20px;
-    width: 70%;
+    width: 65%;
 
 }
 
 #posicao_conteudo_escrito {
     margin-right: auto;
     margin-left: auto;
-    padding: 5%;
 }
 
-.titulo_escrita {
-    font-size: 26px;
+.titulo_escrita {   
+    font-size: 320%;
     font-weight: 700;
     color: #27293F;
-    text-align: center;
-    width: fit-content;
+
 }
 
 #posicao_linhas {
